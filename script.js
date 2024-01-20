@@ -1,10 +1,4 @@
-function klikButton() {
-    var button;
-
-    if (confirm("Silahkan Klik Button")) {
-        button = "Anda Berhasil Klik Button";
-    } else {
-        button = "Anda Tidak Klik Button";
-    }
-    document.getElementById("hasilKlik").innerHTML = button;
-}
+$(document).ready(function () {
+    var myElement = $("#01");
+    myElement.text("Hello!");
+});
