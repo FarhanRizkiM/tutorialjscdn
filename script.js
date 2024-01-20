@@ -1,5 +1,5 @@
 function klikButton() {
-    let button;
+    var button;
 
     if (confirm("Silahkan Klik Button")) {
         button = "Anda Berhasil Klik Button";
